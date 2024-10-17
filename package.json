@@ -20,6 +20,7 @@
     "jest": "^29.7.0"
   },
   "dependencies": {
+    "@git-diff-view/vue": "^0.0.18",
     "axios": "^0.28.0",
     "lodash": "^4.17.21",
     "minimist": "^1.2.5",
