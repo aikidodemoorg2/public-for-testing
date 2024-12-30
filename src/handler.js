@@ -12,9 +12,9 @@ const connection = mysql.createConnection({
 
 app.get('/user', function(req, res) {
   let userId = req.query.id;
-  let query = `SELECT * FROM users WHERE id = '${userId}'`;
+  let query = 'SELECT * FROM users WHERE id = ?';
 
-  connection.query(query, function(error, results, fields) {
+  connection.query(query, [userId], function(error, results, fields) {
     if (error) throw error;
     res.send(results);
   });
