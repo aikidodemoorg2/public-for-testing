@@ -1,6 +1,8 @@
 const express = require('express');
 const mysql = require('mysql');
+const helmet = require('helmet');
 const app = express();
+app.use(helmet());
 
 // Database connection
 const connection = mysql.createConnection({
