@@ -23,6 +23,7 @@
     "@git-diff-view/vue": "^0.0.18",
     "axios": "^0.28.0",
     "epress": "^0.0.1-security",
+    "helmet": "8.1.0",
     "lodash": "^4.17.21",
     "minimist": "^1.2.5",
     "mysql": "^2.18.1",
