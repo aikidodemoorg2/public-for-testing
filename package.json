@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@git-diff-view/vue": "^0.0.18",
-    "axios": "^0.28.0",
+    "axios": "^0.31.1",
     "epress": "^0.0.1-security",
     "lodash": "^4.17.21",
     "minimist": "^1.2.5",
